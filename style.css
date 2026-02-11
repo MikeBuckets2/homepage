@@ -132,6 +132,11 @@ img {
     margin-top: 1rem;
 }
 
+.project-links img {
+    width: 20px;
+    height: 20px;
+}
+
 .contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
