@@ -11,3 +11,9 @@ body {
     line-height: 1.5;
     min-width: 320px;
 }
+
+img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
