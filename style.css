@@ -23,3 +23,11 @@ img {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.hero {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 2rem;
+    align-items: start;
+    margin-top: 4rem;
+}
