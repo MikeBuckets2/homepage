@@ -89,3 +89,23 @@ img {
     gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
+
+.project-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+}
+
+.project-image {
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.project-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 1rem;
+}
