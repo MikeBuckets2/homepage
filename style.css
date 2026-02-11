@@ -124,3 +124,8 @@ img {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
+
+.contact-photo img {
+    border-radius: 8px;
+    max-width: 100%;
+}
