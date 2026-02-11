@@ -156,3 +156,19 @@ img {
     border-radius: 8px;
     max-width: 100%;
 }
+
+.contact-details {
+    margin-top: 1.5rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contact-item img {
+    width: 22px;
+    height: 22px;
+}
