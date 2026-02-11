@@ -10,23 +10,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="hero container">
-        <div class="hero-photo">
-            <img src="./assets/pexels-josh-hild-1270765-18816026.jpg" alt="">
-            <h1 class="hero-name">Michael Morris</h1>
-        </div>
+    <header class="hero">
+        <div class="container intro">
+            <figure class="portrait-card">
+                <img
+                class="portrait-image" 
+                src="./assets/pexels-josh-hild-1270765-18816026.jpg" 
+                alt="Placeholder Image"
+                />
+                <figcaption class="portrait-name">Placeholder Name</figcaption>
+            </figure>
 
-        <div class="hero-about card">
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>
-            <div class="social-links">
-                <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" /></a>
-                <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" /></a>
-                <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg" /></a>
-            </div>
+            <article class="about-card">
+                <h1>About me</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+
+                <div class="social-links" aria-label="Social links">
+                    <a href="#" aria-label="GitHub profile">
+                        <img 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" 
+                        alt=""
+                        />
+                    </a>
+                    <a href="#" aria-label="LinkedIn profile">
+                        <img 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" 
+                        alt=""
+                        />
+                    </a>
+                    <a href="#" aria-label="X profile">
+                        <img 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg" 
+                        alt=""
+                        />
+                    </a>
+                </div>
+            </article>
         </div>
     </header>
 
