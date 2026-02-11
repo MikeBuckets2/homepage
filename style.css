@@ -84,19 +84,23 @@ img {
     line-height: 0.92;
 }
 
-.hero-about {
-    background: white;
-    padding: 2.5rem;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    position: relative;
-    right: 60px;
-    z-index: 2;
-    max-width: 500px;
+.about-card {
+    background: var(--color-surface);
+    box-shadow: var(--shadow-card);
+    padding: clamp(1.25rem, 2.8vw, 2.5rem);
 }
 
-.hero-about h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+.about-card h1 {
+    margin: 0 0 1rem;
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 3vw, 3.1rem);
+    font-weight: 500;
+}
+
+.about-card p {
+    margin: 0;
+    color: var(--color-muted);
+    font-size: clamp(0.98rem, 1.3vw, 1.06rem);
 }
 
 .social-links img {
