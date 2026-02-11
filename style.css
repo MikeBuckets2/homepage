@@ -46,12 +46,12 @@ img {
 
 .hero-photo {
     position: relative;
+    max-width: 450px;
+    margin-left: auto;
 }
 
 .hero-photo img {
-    border-radius: 8px;
-    height: auto;
-    width: 100%;
+    border-radius: 6px;
 }
 
 .hero-name {
@@ -67,12 +67,12 @@ img {
 
 .hero-about {
     background: white;
-    padding: 2rem 2rem 1rem 2rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    padding: 2.5rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    right: 60px;
+    z-index: 2;
+    max-width: 500px;
 }
 
 .hero-about h2 {
