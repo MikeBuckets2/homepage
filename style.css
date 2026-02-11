@@ -50,25 +50,38 @@ img {
     clip-path: polygon(0 0, 100% 0, 100% 69%, 0 100%);
 }
 
-.hero-photo {
+.intro {
+    display: grid;
+    grid-template-columns: minmax(240px, 380px) 1fr;
+    gap: 0;
+    align-items: center;
+}
+
+.portrait-card {
+    margin: 0;
     position: relative;
-    max-width: 450px;
-    margin-left: auto;
+    box-shadow: var(--shadow-strong);
+    z-index: 2;
+    transform: translateX(clamp(0.9rem, 2.3vw, 2.6rem));
 }
 
-.hero-photo img {
-    border-radius: 6px;
+.portrait-image {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    object-position: center 25%;
 }
 
-.hero-name {
+.portrait-name {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
-    font-size: 2.6rem;
-    color: white;
-    background: rgba(0,0,0,0.5);
-    padding: 0.3rem 0.7rem;
-    border-radius: 4px;
+    left: 1rem;
+    bottom: 1rem;
+    margin: 0;
+    color: #ffffff;
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0,42);
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 3.8vw, 4rem);
+    line-height: 0.92;
 }
 
 .hero-about {
