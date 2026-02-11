@@ -73,3 +73,19 @@ img {
     display: flex;
     gap: 1rem;
 }
+
+.projects {
+    margin-top: 4rem;
+}
+
+.projects h2 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.projects-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
