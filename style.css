@@ -267,3 +267,11 @@ img {
     object-position: center 32%;
     box-shadow: var(--shadow-strong);
 }
+
+.social-links--light {
+    justify-content: flex-start;
+}
+
+.social-links--light img {
+    filter: brightness(0) saturate(100%) invert(1);
+}
