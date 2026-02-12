@@ -301,3 +301,68 @@ img {
         aspect-ratio: 4 / 5;
     }
 }
+
+@media (max-width: 760px) {
+    .hero {
+        padding-bottom: 1.75rem;
+    }
+
+    .hero::before {
+        inset: 0 0 54% 0;
+        clip-path: polygon(0 0, 100% 0, 100% 82%, 0 100%);
+    }
+
+    .intro {
+        grid-template-columns: 1fr;
+    }
+
+    .portrait-card {
+        width: min(420px, 100%);
+        margin-inline: auto;
+        transform: none;
+    }
+
+    .about-card {
+        box-shadow: none;
+        background: transparent;
+        padding: 1.5rem 0 0;
+    }
+
+    .about-card h1 {
+        text-align: center;
+    }
+
+    .social-links {
+        justify-content: center;
+        margin-top: 1.1rem;
+    }
+
+    .projects-section h2 {
+        text-align: center;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 1.6rem;
+    }
+
+    .project-shot {
+        min-height: 220px;
+    }
+
+    .contact-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-copy h2 {
+        text-align: center;
+    }
+
+    .contact-intro {
+        max-width: none;
+    }
+
+    .contact-photo {
+        display: none;
+    }
+}
