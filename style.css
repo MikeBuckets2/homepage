@@ -366,3 +366,18 @@ img {
         display: none;
     }
 }
+
+@media (max-width: 450px) {
+    .container {
+        width: min(1200px, 100% - 1.6rem);
+    }
+
+    .hero::before {
+        inset: 0 0 62% 0;
+    }
+
+    .portrait-name {
+        left: 0.75rem;
+        bottom: 0.75rem;
+    }
+}
